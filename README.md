@@ -3,36 +3,36 @@
 
 ![Solución A](https://github.com/Johncarpi/Tarea-Algoritmo-A-/assets/150828183/feb6f0b0-8b44-45cc-a220-12a21ae12f75)
 
-1- A{B,C}
+1- Cerrados{A}    Frontera{B,C}
 
-2-C{B,E,F}
+2-Cerrados{A,C}    Frontera{B,E,F}
 
-3-F{B,E,H,I}
+3-Cerrados{A,C,F}    Frontera{B,E,H,I}
 
-4-B{E,H,I,J,E}
+4-Cerrados{A,C,F,B}    Frontera{E,H,I,J,E}
 
-5-J{E,H,I,K}
+5-Cerrados{A,C,F,B,J}    Frontera{E,H,I,K}
 
-6-K{E,H,I,L}
+6-Cerrados{A,C,F,B,J,K}    Frontera{E,H,I,L}
 
-7-E{I,L,B,H}
+7-Cerrados{A,C,F,B,J,K,E}    Frontera{I,L,B,H}
 
-8-I{L,H,M}
+8-Cerrados{A,C,F,B,J,K,E,I}    Frontera{L,H,M}
 
-9-H{L,M,E}
+9-Cerrados{A,C,F,B,J,K,E,I,H}    Frontera{L,M,E}
 
-10-L{M,N}
+10-Cerrados{A,C,F,B,J,K,E,I,H,L}    Frontera{M,N}
 
-11-M{N,Ñ}
+11-Cerrados{A,C,F,B,J,K,E,I,H,L,M}    Frontera{N,Ñ}
 
-12-N{Ñ,O}
+12-Cerrados{A,C,F,B,J,K,E,I,H,L,M,N}    Frontera{Ñ,O}
 
-13-Ñ{O,P}
+13-Cerrados{A,C,F,B,J,K,E,I,H,L,M,N,Ñ}  Frontera{O,P}  
 
-14-P{O,Q}
+14-Cerrados{A,C,F,B,J,K,E,I,H,L,M,N,Ñ,P}  Frontera{O,Q}  
 
-15-Q{O,R}
+15-Cerrados{A,C,F,B,J,K,E,I,H,L,M,N,Ñ,P,Q}  Frontera{O,R} 
 
-16-R{O,Goal}
+16-Cerrados{A,C,F,B,J,K,E,I,H,L,M,N,Ñ,P,Q,R}  Frontera{O}  
 
-17-O{Goal}
+17-Cerrados{A,C,F,B,J,K,E,I,H,L,M,N,Ñ,P,Q,R,O} Feontera{}
