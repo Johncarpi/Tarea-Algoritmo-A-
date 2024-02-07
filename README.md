@@ -4,8 +4,11 @@
 ![Solución A](https://github.com/Johncarpi/Tarea-Algoritmo-A-/assets/150828183/feb6f0b0-8b44-45cc-a220-12a21ae12f75)
 
 1- A{B,C}
+
 2-C{B,E,F}
+
 3-F{B,E,H,I}
+
 4-B{E,H,I,J,E}
 5-J{E,H,I,K}
 6-K{E,H,I,L}
