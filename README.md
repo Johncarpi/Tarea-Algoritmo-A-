@@ -3,36 +3,57 @@
 
 ![Solución A](https://github.com/Johncarpi/Tarea-Algoritmo-A-/assets/150828183/feb6f0b0-8b44-45cc-a220-12a21ae12f75)
 
-1- Cerrados{A}    Frontera{B,C}
+![1707733416931](https://github.com/Johncarpi/Tarea-Algoritmo-A-/assets/150828183/cb281d08-f550-489f-ba52-ad62e0efcbda)
 
-2-Cerrados{A,C}    Frontera{B,E,F}
 
-3-Cerrados{A,C,F}    Frontera{B,E,H,I}
 
-4-Cerrados{A,C,F,B}    Frontera{E,H,I,J,E}
+1- Interación: Empezamos desde el nodo A ya que hera el único nodo disponible:
+Cerrados{A}    Frontera{B,C}
 
-5-Cerrados{A,C,F,B,J}    Frontera{E,H,I,K}
+2- Interación: Expandimos al nodo C ya que es el nodo con la f más favorable: 
+Cerrados{A,C}    Frontera{B,E,F}
 
-6-Cerrados{A,C,F,B,J,K}    Frontera{E,H,I,L}
+3- Interación: Expandimos al nodo F ya que es el nodo con la f más favorable: 
+Cerrados{A,C,F}    Frontera{B,E,H,I}
 
-7-Cerrados{A,C,F,B,J,K,E}    Frontera{I,L,B,H}
+4- Interación: Expandimos al nodo B ya que es el nodo con la f más favorable: 
+Cerrados{A,C,F,B}    Frontera{E,H,I,J,E}
 
-8-Cerrados{A,C,F,B,J,K,E,I}    Frontera{L,H,M}
+5- Interación: Expandimos al nodo J ya que es el nodo con la f más favorable: 
+Cerrados{A,C,F,B,J}    Frontera{E,H,I,K}
 
-9-Cerrados{A,C,F,B,J,K,E,I,H}    Frontera{L,M,E}
+6- Interación: Expandimos al nodo K ya que es el nodo con la f más favorable: 
+Cerrados{A,C,F,B,J,K}    Frontera{E,H,I,L}
 
-10-Cerrados{A,C,F,B,J,K,E,I,H,L}    Frontera{M,N}
+7- Interación: Expandimos al nodo E ya que es el nodo con la f más favorable: 
+Cerrados{A,C,F,B,J,K,E}    Frontera{I,L,B,H}
 
-11-Cerrados{A,C,F,B,J,K,E,I,H,L,M}    Frontera{N,Ñ}
+8- Interación: Expandimos al nodo I ya que es el nodo con la f más favorable:  
+Cerrados{A,C,F,B,J,K,E,I}    Frontera{L,H,M}
 
-12-Cerrados{A,C,F,B,J,K,E,I,H,L,M,N}    Frontera{Ñ,O}
+9- Interación: Expandimos al nodo H ya que es el nodo con la f más favorable: 
+Cerrados{A,C,F,B,J,K,E,I,H}    Frontera{L,M,E}
 
-13-Cerrados{A,C,F,B,J,K,E,I,H,L,M,N,Ñ}  Frontera{O,P}  
+10- Interación: Expandimos al nodo L ya que es el nodo con la f más favorable:  
+Cerrados{A,C,F,B,J,K,E,I,H,L}    Frontera{M,N}
 
-14-Cerrados{A,C,F,B,J,K,E,I,H,L,M,N,Ñ,P}  Frontera{O,Q}  
+11- Interación: Expandimos al nodo M ya que es el nodo con la f más favorable: 
+Cerrados{A,C,F,B,J,K,E,I,H,L,M}    Frontera{N,Ñ}
 
-15-Cerrados{A,C,F,B,J,K,E,I,H,L,M,N,Ñ,P,Q}  Frontera{O,R} 
+12- Interación: Expandimos al nodo N ya que es el nodo con la f más favorable: 
+Cerrados{A,C,F,B,J,K,E,I,H,L,M,N}    Frontera{Ñ,O}
 
-16-Cerrados{A,C,F,B,J,K,E,I,H,L,M,N,Ñ,P,Q,R}  Frontera{O}  
+13- Interación: Expandimos al nodo Ñ ya que es el nodo con la f más favorable: 
+Cerrados{A,C,F,B,J,K,E,I,H,L,M,N,Ñ}  Frontera{O,P}  
 
-17-Cerrados{A,C,F,B,J,K,E,I,H,L,M,N,Ñ,P,Q,R,O} Feontera{}
+14- Interación: Expandimos al nodo P ya que es el nodo con la f más favorable: 
+Cerrados{A,C,F,B,J,K,E,I,H,L,M,N,Ñ,P}  Frontera{O,Q}  
+
+15- Interación: Expandimos al nodo Q ya que es el nodo con la f más favorable: 
+Cerrados{A,C,F,B,J,K,E,I,H,L,M,N,Ñ,P,Q}  Frontera{O,R} 
+
+16- Interación: Expandimos al nodo R ya que es el nodo con la f más favorable: 
+Cerrados{A,C,F,B,J,K,E,I,H,L,M,N,Ñ,P,Q,R}  Frontera{O}  
+
+17- Interación: Expandimos al nodo O ya que es el nodo con la f más favorable: 
+Cerrados{A,C,F,B,J,K,E,I,H,L,M,N,Ñ,P,Q,R,O} Feontera{}
