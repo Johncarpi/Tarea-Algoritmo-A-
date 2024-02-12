@@ -56,4 +56,4 @@ Cerrados{A,C,F,B,J,K,E,I,H,L,M,N,Ñ,P,Q}  Frontera{O,R}
 Cerrados{A,C,F,B,J,K,E,I,H,L,M,N,Ñ,P,Q,R}  Frontera{O}  
 
 17- Interación: Expandimos al nodo O ya que es el nodo con la f más favorable: 
-Cerrados{A,C,F,B,J,K,E,I,H,L,M,N,Ñ,P,Q,R,O} Feontera{}
+Cerrados{A,C,F,B,J,K,E,I,H,L,M,N,Ñ,P,Q,R,O} FRontera{}
